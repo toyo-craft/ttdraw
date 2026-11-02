@@ -1,0 +1,26 @@
+name: 不具合報告 / Bug report
+description: 公開できる不具合の再現情報 / Reproduction details that can be public
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "個人情報・機密情報・私的なスケッチは投稿しないでください。非公開相談は info@toyo-craft.net へ。 Do not post personal/confidential data or private sketches. Email info@toyo-craft.net for private inquiries."
+  - type: input
+    id: version
+    attributes:
+      label: アプリ版・内部番号 / App version and build
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: 端末とAndroid版 / Device and Android version
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 再現手順・期待結果・実際の結果 / Steps, expected, and actual result
+    validations:
+      required: true

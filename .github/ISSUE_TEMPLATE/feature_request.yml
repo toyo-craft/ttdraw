@@ -1,0 +1,14 @@
+name: 改善要望 / Feature request
+description: 公開できる改善案 / Suggestions that can be public
+title: "[Request] "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: "公開できる内容だけをご記入ください。非公開相談は info@toyo-craft.net へ。 Include only public information. Private inquiries: info@toyo-craft.net."
+  - type: textarea
+    id: need
+    attributes:
+      label: 困っていること・改善案 / Need and suggestion
+    validations:
+      required: true
