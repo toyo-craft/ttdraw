@@ -6,7 +6,7 @@
 
 TTDraw is a vector drawing app for Android. Verified, signed APKs are distributed through GitHub Releases as an early distribution channel until the app is available on Google Play.
 
-![English canvas example](images/canvas-idea-en.png)
+<img src="images/android-canvas-en.png" alt="Actual Android screen of TTDraw 0.1.7, showing an editable weekend trip board made with text, shapes, and paths" width="360">
 
 ## Features
 
@@ -27,7 +27,7 @@ The current version is free. It has no account registration, ads, in-app payment
 
 **Up to 30 regular sketches are retained.** When the limit is exceeded, the oldest regular sketches by save date are automatically cleaned up. Favorites, templates, and unreadable saved entries are excluded. **PNG captures the currently visible canvas area**, not all content outside the viewport.
 
-Screenshots use synthetic example data. Version labels and layout in an image may differ from the distributed version.
+The screenshot was captured from the published 0.1.7 APK (build 8) running on an Android emulator. The original example contains editable text, shapes, and paths, imported through the app's standard file-import feature and displayed in the actual editor. No app UI or text was composited onto the screenshot afterward.
 
 ## Guides and terms
 
