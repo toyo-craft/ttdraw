@@ -6,11 +6,17 @@
 
 TTDrawは、思いついたアイデアをすばやく描き、整え、共有するAndroid向けベクター描画アプリです。Google Play公開までの先行配布として、動作確認した署名付きAPKをGitHub Releasesから提供します。
 
-<img src="images/android-canvas-ja.png" alt="Android版TTDraw 0.1.7の実画面。文字・図形・線で作成した週末旅行のアイデアボード" width="360">
+<p>
+<a href="https://raw.githubusercontent.com/toyo-craft/ttdraw/main/images/sketch-directions.png"><img src="images/sketch-directions.png" alt="フリーハンドの案内図とベジェ曲線の矢印" width="240"></a>
+<a href="https://raw.githubusercontent.com/toyo-craft/ttdraw/main/images/sketch-photo-notes.png"><img src="images/sketch-photo-notes.png" alt="植物の写真に円・曲線と短い日英メモを重ねた実画面" width="240"></a>
+<a href="https://raw.githubusercontent.com/toyo-craft/ttdraw/main/images/sketch-badminton.png"><img src="images/sketch-badminton.png" alt="コートの図柄と円・曲線で、前後の攻撃陣形とネット前への動きを示すバドミントン作戦図" width="240"></a>
+<a href="https://raw.githubusercontent.com/toyo-craft/ttdraw/main/images/sketch-football.png"><img src="images/sketch-football.png" alt="左右対称のハーフコートで、ニアへ引きつけファーへクロスを送るサッカー作戦図" width="240"></a>
+<a href="https://raw.githubusercontent.com/toyo-craft/ttdraw/main/images/sketch-connections.png"><img src="images/sketch-connections.png" alt="機器の図柄と色違いの曲線でHDMI・USBの接続を説明した実画面" width="240"></a>
+</p>
 
 ## できること
 
-- ペン、直線、曲線、長方形、円、文字でアイデアを描く。
+- ペン、直線、ベジェ曲線、長方形、円、文字でアイデアを描く。
 - 選択、移動、回転、拡大縮小、反転、整列、グループ化で整える。
 - 前景・背景の2層、画像・SVGの取込み、テンプレートを利用する。
 - 表示中の範囲をPNGで保存・共有・クリップボードへコピーする。
@@ -27,7 +33,9 @@ TTDrawは、思いついたアイデアをすばやく描き、整え、共有�
 
 **通常スケッチは30件までです。** 上限を超えると更新日時の古い通常スケッチから自動整理されます。お気に入り・テンプレート・読込み不能データは対象外です。**PNGは現在表示しているキャンバス範囲の出力**で、画面外の全体出力ではありません。
 
-画面画像は、公開版0.1.7（ビルド8）をAndroidエミュレーターで実行して撮影したものです。作例は、編集可能な文字・図形・線からなる専用ファイルをアプリの標準機能で取り込み、実際の編集画面で表示しています。画像へのUIの合成や文字の後付けは行っていません。
+画像は、公開版0.1.7（ビルド8）をAndroidエミュレーターで撮影した実画面です。日英で同じ5枚を使用し、クリックすると原寸で開けます。コートや機器の図柄は作例用に用意したものです。
+
+写真：[Fadime Demirtaş / Pexels](https://www.pexels.com/photo/green-plant-on-a-woven-pot-10229948/)。
 
 ## 案内と利用条件
 
